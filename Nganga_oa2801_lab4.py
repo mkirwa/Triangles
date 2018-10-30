@@ -54,11 +54,8 @@ def process_file(infile,start_year, end_year):
                     if yearsvalues[k] == int(cinc[j][1]):
                         cinc_year.append((float(cinc[j][2]), cinc[j][0]))
                 #print(sum(mil_year))
-                max_cinc.append(max(cinc_year)) 
-           
+                max_cinc.append(max(cinc_year))        
     return (yearsvalues, total_milex, total_steel, max_cinc)  
-
-
     target.close() 
     
 
