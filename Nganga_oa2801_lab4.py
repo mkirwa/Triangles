@@ -23,7 +23,6 @@ def process_file(infile,start_year, end_year):
     total_milex =[]
     total_steel =[]
     max_cinc = []
-
     ##this should loop through the entire document 
     for i in range(len(my_list)-1):
         if my_list[i+1][2]>= 'start_year' and my_list[i+1][2]<='end_year':
