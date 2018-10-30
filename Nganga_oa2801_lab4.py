@@ -47,9 +47,7 @@ def process_file(infile,start_year, end_year):
                     if yearsvalues[k] == int(steel[j][0]):
                         steel_year.append((int(steel[j][1])))
                 #print(sum(steel_year))
-                total_steel.append(sum(steel_year))
-            
-            
+                total_steel.append(sum(steel_year))        
             for k in range(len(yearsvalues)):
                 cinc_year = []
                 for j in range(len(cinc)):
