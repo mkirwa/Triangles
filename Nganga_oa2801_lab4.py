@@ -3,10 +3,8 @@
 # Email: martin.nganga@nps.edu
 #
 # OA2801 - Lab 4 (Military Spending)
-
 # import statements first
 import sys
-
 # function definitions next
 def process_file(infile,start_year, end_year):
     print("Reading file %s to process data in range [%d,%d]" % (infile, start_year, end_year))
@@ -17,7 +15,6 @@ def process_file(infile,start_year, end_year):
         line = line.replace('"','')
         line = line.replace('-9', '0')                                   #line = line.replace('-9','')# # remove the extra quotes around country names
         my_list.append(line.split(','))  # this splits the line into a list and appends that list to the my_data list
-
     years = []
     yearsvalues = []
     milex =[]
