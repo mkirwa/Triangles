@@ -40,9 +40,7 @@ def process_file(infile,start_year, end_year):
                     if yearsvalues[k] == int(milex[j][0]):
                         mil_year.append((int(milex[j][1])))
                 #print(sum(mil_year))
-                total_milex.append(sum(mil_year)) 
-                
-                
+                total_milex.append(sum(mil_year))         
             for k in range(len(yearsvalues)):
                 steel_year = []
                 for j in range(len(steel)):
