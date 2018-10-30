@@ -33,8 +33,7 @@ def process_file(infile,start_year, end_year):
          ##This code should be under the the for loop above as it picks up the necessary rows   
         for k in range(len(years)):
             if int(years[k]) not in yearsvalues:
-                yearsvalues.append(years[k])
-                    
+                yearsvalues.append(years[k])         
             for k in range(len(yearsvalues)):
                 mil_year = []
                 for j in range(len(milex)):
